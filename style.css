@@ -10,7 +10,7 @@
             border: none;
             box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.2);
             height: 80px;
-            width: 99vw;
+            width: 100vw;
             align-items: center;
             padding: 30px 50px;
             position: sticky;
@@ -472,3 +472,17 @@
      }
 
  }
+ @media (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+
+    .left, .right{
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+}
