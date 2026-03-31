@@ -231,6 +231,8 @@
  }
 
  .box {
+    height: 200px;
+    width: 300px;
      background: rgb(231, 241, 236);
      padding: 15px;
      border-radius: 10px;
@@ -454,6 +456,38 @@
          animation: movingbox 2s ease 2;
      }
 
+     .container {
+         flex-direction: column;
+     }
+
+     .content {
+         width: 100%;
+         height: auto;
+     }
+
+     h1 {
+         font-size: 28px;
+     }
+  .box{
+    width: 50%;
+    height: auto;
+  }
+    /* .image {
+         width: 50vw;
+         height: 50vh;
+     }*/
+
+
+     .image1 img {
+         width: 50vw;
+         height: 50vh;
+     }
+
+    /* .image2 {
+         width: 200px;
+         height: auto;
+     }*/
+
      @keyframes movingbox {
          from {
              top: 200px;
@@ -475,20 +509,4 @@
 
      }
 
- }
-
- @media (max-width: 768px) {
-     .container {
-         flex-direction: column;
-     }
-
-     .hero-image,
-     .hero-content {
-         width: 100%;
-         height: auto;
-     }
-
-     h1 {
-         font-size: 28px;
-     }
  }
