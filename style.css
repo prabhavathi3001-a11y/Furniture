@@ -72,7 +72,7 @@
      color: white;
      height: 50px;
      width: 150px;
-    cursor: pointer;
+     cursor: pointer;
  }
 
  button:hover {
@@ -89,11 +89,12 @@
  .hero-content {
      width: 40vw;
      /*width: 100%;*/
-     height: 300px;
+     /* height: 300px;*/
      display: flex;
      flex-direction: column;
+     justify-content: center;
      gap: 2em;
-     margin-top: 150px;
+     /* margin-top: 150px;*/
      padding: 0px 30px;
      color: rgb(25, 1, 47);
 
@@ -105,7 +106,9 @@
      width: 60vw;
      height: 80vh;
      background-repeat: no-repeat;
-  
+     background-position: center;
+     background-size: contain;
+
  }
 
  h1 {
@@ -281,7 +284,7 @@
      align-items: center;
  }
 
-.blog-container {
+ .blog-container {
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
      gap: 25px;
@@ -434,11 +437,13 @@
 
      .hero-container {
          flex-direction: column;
+         padding: 20px;
+
      }
 
      .hero-content {
          width: 100%;
-         margin-top: 50px;
+         text-align: center;
      }
 
      h2 {
@@ -460,15 +465,16 @@
          height: 50vh;
          background-size: contain;
          background-position: center;
-        position: absolute;
+         margin-top: 20px;
      }
-      .button{
+
+     .button {
          display: inline-block;
          margin-top: 20px;
-         position: relative;
-         z-index: 1;
-      }
- 
+         /* z-index: 1;
+         position: static;*/
+     }
+
      .trand-container,
      .fav-container,
      .blog-container {
