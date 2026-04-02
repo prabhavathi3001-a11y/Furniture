@@ -97,6 +97,11 @@
      color: rgb(25, 1, 47);
 
  }
+ h8{
+font-size:50px;
+color: #050605;
+font-weight: bold;
+ }
 
  .hero-image {
      background: url(./image1/couch.png);
@@ -110,8 +115,11 @@
  }
 
  h1 {
-     color: azure;
+     color: rgb(18, 33, 10);
      font-size: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
  }
 
  .trend-container {
@@ -179,13 +187,12 @@
 
  }
 
- h1 {
-     font-size: 60px;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     font-weight: lighter;
+ h6 {
+     font-size: 35px;
+     font-weight: bold;
      display: flex;
      align-items: center;
-     justify-content: left;
+     justify-content: center;
      color: rgb(2, 19, 2);
  }
 
@@ -193,6 +200,7 @@
      display: flex;
      align-items: center;
      justify-content: center;
+     font-weight: lighter;
  }
 
 
@@ -215,8 +223,10 @@
 
  .choose-container {
      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-     gap: 2em 2em;
-
+     gap: 4em 8em;
+     padding: 60px 0px;
+   background-color: #cfeedd;
+   border: 6px solid #cfeedd;
 
  }
 
@@ -290,18 +300,14 @@
  }
 
  h7 {
-     font-size: 25px;
+     font-size: 35px;
      display: flex;
      justify-content: center;
      align-items: center;
+     font-weight: bold;
  }
 
- h6 {
-     font-size: 15px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
+
 
  .blog-container {
      display: grid;
@@ -336,9 +342,7 @@
      flex-direction: column;
  }
 
- para3 {
-     font-size: 30px;
- }
+ 
 
  #Email-ID {
 
@@ -425,9 +429,9 @@
 
  }
 
- p1 {
-     color: grey;
-     padding: 0px 20px;
+ p {
+     color: rgb(10, 10, 10);
+     padding: 20px 0px;
  }
 
  .footer {
@@ -480,9 +484,14 @@
          margin-top: 50px;
      }
 
-     h1 {
+     h2 {
          font-size: 28px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        
      }
+    
 
      .box {
          width: 100%;
@@ -501,14 +510,13 @@
     .fav-container,
     .blog-container{
         grid-template-columns: 1fr;
+        
     }
 
     .ads-container{
         flex-direction: column;
     }
-
-
-
+  
      .image,
      .images,
      .image2 {
@@ -516,7 +524,16 @@
          height: 50vh;*/
          width: 50%;
          height: auto;
+        display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: auto;
      }
+    #Email-ID,
+    #Name{
+        display: flex;
+        margin:auto ;
+    }
  .footer{
         flex-direction: column;
         gap: 20px;
@@ -545,5 +562,10 @@
          display: block;
 
      }
-
+   .logos{
+    display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+    margin: auto;
+   }
  }
