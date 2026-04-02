@@ -89,12 +89,12 @@
  .hero-content {
      width: 40vw;
      /*width: 100%;*/
-      height: 300px;
+     height: 300px;
      display: flex;
      flex-direction: column;
      justify-content: center;
      gap: 2em;
-      margin-top: 150px;
+     margin-top: 150px;
      padding: 0px 30px;
      color: rgb(25, 1, 47);
 
@@ -103,7 +103,7 @@
 
  .hero-image {
      background: url(./image1/couch.png);
-     width: 60vw;
+     width: 100%;
      height: 80vh;
      background-repeat: no-repeat;
      background-position: center;
