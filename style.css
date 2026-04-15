@@ -108,8 +108,8 @@
      background-repeat: no-repeat;
      background-position: center;
      background-size: contain;
-       transform: translateX(100px);
-     transition: transform 4s ease , opacity 0.6s ease;
+     transform: translateX(100px);
+     transition: transform 4s ease, opacity 0.6s ease;
 
  }
 
@@ -148,7 +148,7 @@
      height: 350px;
      object-fit: contain;
      transform: translateX(100px);
-     transition: transform 4s ease , opacity 0.6s ease;
+     transition: transform 4s ease, opacity 0.6s ease;
 
  }
 
