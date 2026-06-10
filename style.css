@@ -14,17 +14,19 @@
      justify-content: space-around;
      border: none;
      box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.2);
-     height: 10vh;
+     height: 15vh;
      align-items: center;
      padding: 30px 50px;
      position: sticky;
-     background-color: rgb(9, 76, 56);
+     background-color: rgb(155, 245, 185);
  }
 
 
 
  ul {
      display: flex;
+     justify-content: center;
+     align-items: center;
      gap: 2em;
  }
 
@@ -35,7 +37,7 @@
  a {
      text-decoration: none;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
-     color: rgba(116, 141, 5, 0.992);
+     color: rgba(54, 65, 5, 0.992);
  }
 
  .logo {
@@ -59,7 +61,7 @@
  }
 
  a:hover {
-     color: #f1c40f;
+     color: blue;
  }
 
  button {
@@ -82,7 +84,7 @@
  .hero-container {
      display: flex;
      /* flex-wrap: wrap;*/
-     background-color: rgb(9, 76, 56);
+     background-color: rgb(160, 253, 190);
      height: 100vh;
  }
 
@@ -117,9 +119,9 @@
      color: rgb(18, 33, 10);
      font-size: 50px;
      display: flex;
-     /*align-items: center;
-     justify-content: center;*/
-     margin: auto;
+     align-items: center;
+     justify-content: center;
+     /* margin: auto; */
  }
 
  .trend-container {
@@ -162,38 +164,34 @@
  }
 
  .fav-container {
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-     gap: 2em 2em;
+      display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
      background-color: rgb(172, 226, 190);
-     justify-content: space-around;
-     padding: 10px 50px;
+      /* justify-content: space-evenly;   */
+      gap: 25px;
+     padding: 20px;
 
  }
 
  .images {
-     width: 400px;
-     height: 300px;
-     /* width: 100%;
-     height: auto;*/
-     object-fit: contain;
+      width: 300px;
+     height: 300px; 
+      /* width: 100%;
+     height: auto; */
+     /* object-fit: contain; */
      border-radius: 40%;
-
-
-     /* opacity: 0;*/
      transform: translateX(100px);
      transition: transform 1s ease, opacity 0.6s ease;
  }
-
-
 
  .cards {
      box-shadow: rgba(0, 0, 0, 0.9) 0px 19px 38px, ;
      display: grid;
      justify-content: center;
      align-items: center;
-     flex-direction: column;
+     /* flex-direction: column; */
      background-repeat: no-repeat;
+     gap:2em;
 
  }
 
@@ -280,21 +278,6 @@
      background-color: gainsboro;
  }
 
- .article {
-     background-color: rgb(143, 231, 193);
-     padding: 40px 20px;
- }
-
- .art-image {
-     background: url(art1.png);
-     height: 150px;
-     width: 100px;
-     background-repeat: no-repeat;
-     margin: auto;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
 
  .blog-container {
      display: grid;
@@ -324,7 +307,7 @@
      align-items: center;
      justify-content: center;
      padding: 40px 20px;
-     gap: 0em 2em;
+     gap: 2em 2em;
      background-color: #c8f4d4;
      flex-direction: column;
  }
@@ -332,7 +315,7 @@
 
 
  #Email-ID {
-
+   
      border: 1px solid white;
      background-color: #9cfab7;
      border-radius: 20px;
@@ -397,6 +380,28 @@
      transform: translateX(0);
 
  }
+
+ .fa-facebook {
+     color: blue;
+
+ }
+
+ .fa-youtube {
+     color: red;
+ }
+
+ .fa-instagram {
+     color: palevioletred;
+ }
+
+ .fa-square-x-twitter {
+     color: black;
+ }
+
+ .fa-linkedin {
+     color: blue;
+ }
+
 
  .social-icons a i {
      font-size: 20px;
