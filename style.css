@@ -501,7 +501,7 @@
          background-position: center;
          margin-top: 20px;
          position: relative; 
-         display: none;
+         /* display: none; */
      }
 
      .button {
