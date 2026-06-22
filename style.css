@@ -509,7 +509,8 @@
 
      .hero-image {
          width: 100%;
-         height: 250%;
+         height: 350%;
+         display: block;
          background-size: contain;
          background-position: center;
          background-repeat: no-repeat;
