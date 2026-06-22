@@ -155,8 +155,11 @@
  .image {
      width: 300px;
      height: 350px;
-     object-fit: contain;
+      object-fit: contain; 
      margin:auto;
+     align-items: center;
+     justify-content: center;
+     display: flex;
 
  }
 
@@ -243,8 +246,8 @@
 
  .choose-container {
      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-     gap: 4em 8em;
-     padding: 60px 0px;
+     gap: 6px 8px;
+     padding: 60px 30px;
      background-color: #cfeedd;
      border: 6px solid #cfeedd;
 
@@ -263,7 +266,7 @@
      height: 200px;
      width: 300px;
      background: rgb(231, 241, 236);
-     padding: 15px;
+     padding: 10px 15px;
      border-radius: 10px;
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
